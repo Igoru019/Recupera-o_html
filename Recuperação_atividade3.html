@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valo_produto</title>
+</head>
+<body>
+    
+    <script>
+        let produto = prompt ('Qual o produto que deseja?')
+        let valor_unico = prompt ('Qual o valor do produto?')
+        let quantidade = prompt ('Quantos deseja comprar?')
+    
+
+        let valor = (Number(valor_unico) * Number(quantidade));
+        let desconto = (Number(valor) - Number(valor/10));
+
+        window.document.write("Produto: " + produto + "<br>");
+        window.document.write("Quantidade: " + quantidade + "<br>");
+        window.document.write("Valor unitario: " + valor_unico+ " reais <br>");
+        window.document.write("Total sem desconto: " + valor + " reais<br>");
+        window.document.write("Total com desconto: " + desconto + " reais<br>");
+    </script>
+    
+</body>
+</html>
+    
+</body>
+</html>
